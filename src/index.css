@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+::selection {
+  background-color: #4F8CFF;
+  color: #0A0F1F;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0F1F;
+}
+::-webkit-scrollbar-thumb {
+  background: #1A2540;
+  border-radius: 6px;
+}
